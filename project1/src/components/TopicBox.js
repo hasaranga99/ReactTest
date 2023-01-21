@@ -12,6 +12,7 @@ export default function TopicBox(props) {
     <div>
       <div className="topicbox">
         <span className='text'>{topic} {item} {c} {props.food} and price is {props.price} </span>
+        {props.children}
       </div>
     </div>
   )
